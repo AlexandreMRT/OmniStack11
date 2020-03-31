@@ -1,10 +1,12 @@
 import React from 'react';
+import './global.css'
 
-import Header from './Header';
+import Logon from './pages/Logon';
 
 function App() {
+ 
   return (
-    <Header>Be The Hero</Header>
+    <Logon />
   );
 }
 
